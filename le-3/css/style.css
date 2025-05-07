@@ -1,0 +1,47 @@
+header>h1:nth-child(8) {
+    background-color: green;
+}
+
+header>h1:nth-child(11) {
+    background-color: green;
+}
+
+header>div>h1:nth-child(4) {
+    background-color: green;
+}
+
+div+p+p {
+    background-color: green;
+}
+
+header>section div h1:nth-child(5) {
+    background-color: green;
+}
+
+section+h1 {
+    background-color: green;
+}
+
+header>h1+p+p {
+    background-color: green;
+}
+
+span h1:nth-child(2) {
+    background-color: green;
+}
+
+div section div h1:first-of-type {
+    background-color: green;
+}
+
+div section div h1:nth-child(2) {
+    background-color: green;
+}
+
+div+h1 {
+    background-color: green;
+}
+
+header>h1:last-child {
+    background-color: green;
+}
