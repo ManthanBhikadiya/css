@@ -1,0 +1,84 @@
+.background {
+    background-color: blue;
+    padding: 10px;
+    color: azure;
+}
+
+.image {
+    height: 500px;
+    width: 500px;
+    background-image: url(../image/fuji.webp);
+    background-position: center top;
+}
+
+.multiimage {
+    height: 500px;
+    width: 620px;
+    background-image: url(../image/image2.jpg), url(../image/image3.jpg);
+    background-position: right top, left top;
+    background-repeat: no-repeat, no-repeat;
+    background-blend-mode: multiply;
+}
+
+.repeat {
+    height: 500px;
+    background-image: url(../image/image4.jpeg);
+    background-repeat: repeat;
+}
+
+.no-repeat {
+    height: 500px;
+    background-image: url(../image/image4.jpeg);
+    background-repeat: no-repeat;
+}
+
+.background-position {
+    height: 500px;
+    background-image: url(../image/image4.jpeg);
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+.background-positioncenter {
+    height: 500px;
+    background-image: url(../image/image4.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.background-positionright {
+    height: 500px;
+    background-image: url(../image/image4.jpeg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+.background-attachmentfixed {
+    height: 400px;
+    background-image: url(../image/image2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.responsive-background {
+    height: 500px;
+    background-image: url(../image/image3.jpg);
+    background-size: cover;
+}
+
+.hover-effect {
+    height: 400px;
+    width: 400px;
+    background-color: lightblue;
+    transition: 0.5s;
+}
+
+.hover-effect:hover {
+    height: 400px;
+    width: 400px;
+    background-color: blue;
+    transition: 0.5s;
+}
+
+
