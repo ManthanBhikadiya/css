@@ -1,0 +1,104 @@
+/*task-1*/
+.div{
+    font-family: cursive;
+    color: aqua;
+    line-height: 20px;
+}
+
+/*task-3*/
+.parent{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+.child{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+/*task-4*/
+.parent1{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+.child1{
+    height: inherit;
+    width: inherit;
+    border: inherit;
+}
+
+/*task-5*/
+/* div{
+    color: blue;
+} */
+.box{
+    color: brown;
+}
+
+#main{
+    color: aqua;
+}
+
+/* task-6 */
+#main2{
+    background-color: blue;
+}
+.Specificity{
+    background-color: blueviolet;
+}
+
+/* task-7 */
+
+#main3{
+    background-color: gray;
+}
+.box3{
+    background-color: green !important;
+}
+
+/* task-8 */
+#main4{
+    background-color: brown;
+} 
+
+.box4{
+    background-color: cadetblue;
+}
+
+/* task-9 */
+#main5{
+    background-color: lavenderblush;
+} 
+
+.box4{
+    background-color: blanchedalmond;
+}
+
+/* task-10 */
+.color{
+    color: blue;
+}
+
+.color{
+    color: green;
+}
+
+/* task-11 */
+
+h3{
+    background-color: mediumblue;
+}
+.multi {
+    background-color: red;
+}
+
+/* task-12 */
+.Layered-Stylesheets{
+    color: orange;
+}
