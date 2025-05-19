@@ -1,0 +1,193 @@
+/* Tasks-1 */
+.box{
+    display: flex;
+    height: 200px;
+}
+.box-1{
+    background-color: aquamarine;
+    flex-grow: 1;
+    border: 2px solid black;
+}
+
+.box-2{
+    background-color: blue;
+    flex-grow: 2;
+    border: 2px solid black;
+}
+
+.box-3{
+    background-color: cadetblue;
+    flex-grow: 1;
+    border: 2px solid black;
+}
+
+
+/* Tasks-2 */
+.one{
+    display: flex;
+    height: 200px;
+}
+.box-4{
+    background-color: yellow;
+    flex-grow: 1;
+    border: 2px solid black;
+}
+
+.box-5{
+    background-color: blue;
+    /* flex-grow: 2; */
+    border: 2px solid black;
+}
+
+.box-6{
+    background-color: cadetblue;
+    /* flex-grow: 1; */
+    border: 2px solid black;
+}
+
+/* Task-3 */
+.box .box-7{
+    background-color: yellow;
+    flex-grow: 1;
+    border: 2px solid black;
+}
+
+.box-8{
+    background-color: indigo;
+    flex-grow: 1;
+    border: 2px solid black;
+}
+
+.box-9{
+    background-color: slategray;
+    flex-grow: 1;
+    border: 2px solid black;
+}
+
+/* task 2.1 */
+
+.Shrink{
+    display: flex;
+    height: 200px;
+    border: 2px solid black;    
+}
+
+.shrink-1{
+    width: 500px;
+    flex-shrink: 1;
+    background-color: red;
+}
+
+.shrink-2{
+    width: 500px;
+    flex-shrink: 2;
+    background-color: green;
+}
+
+.shrink-3{
+    width: 500px;
+    flex-shrink: 0;
+    background-color: blue;
+}
+
+/* task 2.2 */
+
+.Disable{
+    display: flex;
+    height: 200px;
+    width: 800px;
+    border: 2px solid black;    
+}
+
+.disable-1{
+    width: 500px;
+    flex-shrink: 1;
+    background-color: red;
+}
+
+.disable-2{
+    width: 500px;
+    flex-shrink: 1;
+    background-color: green;
+}
+
+.disable-3{
+    width: 500px;
+    flex-shrink: 0;
+    background-color: blue;
+}
+
+/* task 2.3 */
+
+.Equal{
+    display: flex;
+    height: 200px;
+    border: 2px solid black;    
+}
+
+.equal-1{
+    width: 500px;
+    flex-shrink: 1;
+    background-color: red;
+}
+
+.equal-2{
+    width: 500px;
+    flex-shrink: 1;
+    background-color: green;
+}
+
+.equal-3{
+    width: 500px;
+    flex-shrink: 1;
+    background-color: blue;
+}
+
+/* task 3.1 */
+
+.basis{
+    display: flex;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.basis-1{
+    flex-basis: 100px;
+    background-color: bisque;
+}
+
+.basis-2{
+    flex-basis: 200px;
+    background-color: grey;
+}
+
+.basis-3{
+    flex-basis: 300px;
+    background-color: khaki;
+}
+
+/* task 3.2 */
+
+.container{
+    display: flex;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.basis-4{
+    width: 200px;
+    flex-basis: 300px;
+    background-color: bisque;
+}
+
+/* task 3.3 */
+
+.basis-5{
+    flex-basis: auto;
+    background-color: grey;
+}
+
+.basis-6{
+    flex-basis: 0;
+    background-color: khaki;
+}
