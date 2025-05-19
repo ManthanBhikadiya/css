@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.mainbox{
+    height: 600px;
+    width: 600px;
+    border: 2px solid black;
+    position: relative;
+}
+/* div{
+    border: 2px solid black;
+} */
+.box-1{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+
+.subbox-1{
+    height: 50px;
+      width: 50px;
+    background-color: blueviolet;
+}
+
+.box-2{
+    height: 100px;
+    width: 100px;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin: auto;
+    position: absolute;
+    background-color: aqua;
+}
+
+.subbox-2{
+    height: 50px;
+    width: 50px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    background-color: blueviolet;
+}
+
+.box-3{
+    height: 100px;
+    width: 100px;
+    right: 0;
+    top: 0;
+    position: absolute;
+    background-color: aqua;
+}
+
+.subbox-3{
+    height: 50px;
+    width: 50px;
+    right: 0;
+    position: absolute;
+    background-color: blueviolet;
+}
+
+.box-4{
+    height: 100px;
+    width: 100px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    background-color: aqua;
+}
+
+.subbox-4{
+    height: 50px;
+    width: 50px;
+    left: 0;
+     top: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    background-color: blueviolet;
+}
+
+.box-5{
+    height: 100px;
+    width: 100px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    background-color: aqua;
+}
+
+.subbox-5{
+    height: 50px;
+    width: 50px;
+    left: 0;
+    right: 0;
+     top: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    background-color: blueviolet;
+}
+
+.box-6{
+    height: 100px;
+    width: 100px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    background-color: aqua;
+}
+
+.subbox-6{
+    height: 50px;
+    width: 50px;
+    right: 0;
+     top: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    background-color: blueviolet;
+}
+
+.box-7{
+    height: 100px;
+    width: 100px;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: aqua;
+}
+
+.subbox-7{
+    height: 50px;
+    width: 50px;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: blueviolet;
+}
+
+.box-8{
+    height: 100px;
+    width: 100px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    background-color: aqua;
+}
+
+.subbox-8{
+    height: 50px;
+    width: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    background-color: blueviolet;
+}
+
+.box-9{
+    height: 100px;
+    width: 100px;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: aqua;
+}
+
+.subbox-9{
+    height: 50px;
+    width: 50px;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: blueviolet;
+}
