@@ -1,0 +1,41 @@
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+.blog-post{
+    min-height: 600px;
+    max-width: 700px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.date{
+    color: gray;
+}
+
+img{
+    width: 700px;
+}
+
+.titel{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.paragraph{
+    margin: 0;
+    display: flex;
+    color: gray;
+}
+
+.por::first-letter{
+    font-size: 40px;
+}
